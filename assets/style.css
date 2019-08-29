@@ -72,14 +72,36 @@ p{
 }
 
 /* contact */
-input{
-    display:block;
-    width:90%;
-}
-
+input,
+label,
 textarea{
     display:block;
-    height:200px;
     width:90%;
+    margin: auto;
 
 }
+input{
+    margin-bottom:10px;
+}
+label{
+    margin-bottom:2px;
+}
+textarea{
+    display:block;
+    height:200px;    
+}
+.formContainer{
+    margin:auto;
+    position: relative;
+    
+}
+.submit {
+    width: 15%;
+    background:#8499B1;
+    color:#394F49;
+    padding: 14px 20px;
+    margin-top:15px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;    
+  }
