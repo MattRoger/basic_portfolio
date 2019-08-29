@@ -5,26 +5,27 @@
   }
 
 body{
-    background-image:url("assets\images\background.jpeg");
+    background-image:url(https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    /* background-image: url(assets\images\background.jpeg); */
 }
 
-h1,
+.nameblock,
 h3,
 .submit{
     background:#8499B1;
     color:#394F49;
 }
 .nameblock{    
-    display: inline;
+    display: inline-block;
+    height: 110px;
+    width:150px;
+    margin-left:150px;
 }
 
 h1{
     background:#8499B1;
     box-sizing:border-box;
     font-size:1.75em;   
-    height: 110px;
-    width:150px;
-    margin-left:150px; 
     text-align: center;
     
 }
@@ -122,6 +123,7 @@ textarea{
     display: grid;
     grid-template-columns:1fr, 1fr;
     grid-gap: 10px;
+
   }
 
 .hangman{
