@@ -68,4 +68,18 @@ p{
     float:left;
     margin-right:10px;
     margin-bottom: 10px;
+
+}
+
+/* contact */
+input{
+    display:block;
+    width:90%;
+}
+
+textarea{
+    display:block;
+    height:200px;
+    width:90%;
+
 }
