@@ -1,0 +1,45 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+body{
+    background:blue;
+}
+li {
+    display:inline;
+    float: right;
+    padding-right:25px;
+    background:red;
+}
+header{
+    height: 110px;
+    background: #C7D0DB;
+    border-bottom:2px solid  #8B8982;
+}
+
+h1{
+    background:#8499B1;
+    color:#394F49;
+    font-size:1.75em;
+    height: 110px;
+    width:150px;
+}
+h2{
+    color: #8499B1;
+    padding:25px;
+    border-bottom: 5px solid #8B8982;
+}
+p{
+    color:#394F49;
+}
+
+/* page specific styles */
+/* index */
+.aboutme{
+    background: #E2DADB;
+    width:60%;
+    margin:50px auto 0 auto;
+    padding:0 25px 15px 25px;
+
+}
