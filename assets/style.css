@@ -7,7 +7,7 @@ body{
     background:blue;
 }
 li {
-    display:inline;
+    /* display:inline; */
     float: right;
     padding-right:25px;
     background:red;
@@ -22,8 +22,10 @@ h1{
     background:#8499B1;
     color:#394F49;
     font-size:1.75em;
-    height: 110px;
     width:150px;
+    text-align: center;
+    margin-left:150px;
+    padding: 40px;
 }
 h2{
     color: #8499B1;
@@ -36,7 +38,7 @@ p{
 
 /* page specific styles */
 /* index */
-.aboutme{
+.mainContent{
     background: #E2DADB;
     width:60%;
     margin:50px auto 0 auto;
