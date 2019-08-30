@@ -7,13 +7,20 @@
 body{
     background-image:url(https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     /* background-image: url(assets\images\background.jpeg); */
+    
 }
-
+header{
+    background: #fff;
+    border-bottom:5px solid #ccc;
+    height: 110px;
+    widows: 100%;
+    margin: 0;
+}
 .nameblock,
 h3,
 .submit{
-    background:#8499B1;
-    color:#394F49;
+    background:#4aaaa5;
+    color:#fff;
 }
 .nameblock{    
     display: inline-block;
@@ -23,21 +30,20 @@ h3,
 }
 
 h1{
-    background:#8499B1;
+    background:#4aaaa5;
     box-sizing:border-box;
     font-size:1.75em;   
     text-align: center;
-    
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 li {
-    border-right: 1px solid #8B8982;
+    border-right: 1px solid #4aaaa5;
     display: inline;
     font-weight:bold;
     list-style-type: none;
     padding: 0 15px;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 nav{
@@ -59,30 +65,37 @@ a:hover{
     color:#344FC9;
 }
 
-header{
-    background: #C7D0DB;
-    border-bottom:2px solid  #8B8982;
-    height: 110px;
-    margin: 0;
-}
-
-
 h2{
-    border-bottom: 5px solid #8B8982;
-    color: #8499B1;
+    border-bottom: 5px solid #ddd;
+    color: #4aaaa5;
     padding:25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 p{
-    color:#394F49;
+    color:#777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .main{
-    background: #E2DADB;
+    background: #fff;
+    border: 2px solid #ddd;
     margin:50px auto 0 auto;
     padding:0 25px 15px 25px;
-    width:60%;
-    
+    width:60%;    
+}
+/* Footer */
+footer{
+    background: #777;
+    border-top: 5px solid #4aaaa5;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top:1%;
+    text-align: center;
+    font-size:.75em;
+    color:white;
+    position: fixed;
+    bottom:0;
+    width: 100%;
 }
 /* page specific styles */
 /* index */
@@ -126,6 +139,7 @@ textarea{
     /* position: absolute; */
     /* left: 5%;     */
     width: 15%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
   /* portfolio */
   .portfolioItem{
